@@ -1,0 +1,26 @@
+web1 ansible_ssh_host=54.233.76.55
+ 
+
+
+
+db1 ansible_ssh_host=52.49.168.241
+
+
+
+
+
+[webservers]
+web1
+
+
+[dbservers]
+db1
+
+[datacenter:children]
+webservers
+dbservers
+
+[datacenter:vars]
+ansible_ssh_user=user1
+ansible_ssh_pass=Welcome@1234
+ansible_sudo_pass=Welcome@1234

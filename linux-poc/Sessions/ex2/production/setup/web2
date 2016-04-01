@@ -1,0 +1,4 @@
+{
+    "failed": true, 
+    "msg": "SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\n    while connecting to 52.192.182.35:22\nIt is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue."
+}

@@ -1,0 +1,4 @@
+{
+    "failed": true, 
+    "msg": "SSH Error: ssh: connect to host 52.49.168.241 port 22: Connection timed out\n    while connecting to 52.49.168.241:22\nIt is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue."
+}
